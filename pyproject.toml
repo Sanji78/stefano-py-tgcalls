@@ -1,6 +1,6 @@
 [project]
 dynamic = ["version"]
-name = "py-tgcalls"
+name = "stefano-py-tgcalls"
 description = "Async client API for the Telegram Calls."
 readme = "README.md"
 license-files = ["LICENSE"]
@@ -26,7 +26,7 @@ keywords = [
 requires-python = ">=3.10"
 dependencies = [
     "aiohttp>=3.9.3",
-    "ntgcalls>=3.0.2,<4.0.0",
+    "stefano-ntgcalls==3.0.5",
     "deprecation",
 ]
 
@@ -36,7 +36,7 @@ telethon = ["telethon>=1.24.0"]
 
 [project.urls]
 Homepage = "https://pytgcalls.github.io/"
-Repository = "https://github.com/pytgcalls/pytgcalls.git"
+Repository = "https://github.com/Sanji78/stefano-py-tgcalls.git"
 Documentation = "https://pytgcalls.github.io/PyTgCalls"
 Changelog = "https://pytgcalls.github.io/PyTgCalls/Changelogs"
 
